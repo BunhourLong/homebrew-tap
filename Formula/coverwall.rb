@@ -3,6 +3,7 @@ class Coverwall < Formula
   homepage "https://github.com/BunhourLong/Coverwall"
   url "https://github.com/BunhourLong/Coverwall/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "f820ca4f7a86f8e77bec3fb494c099d68f97b4a5615adf50a7806335adfc29a3"
+  license "MIT"
 
   # Command Line Tools are enough (SPIKE_NOTES Q5): no `depends_on xcode:`.
   depends_on macos: :sonoma
